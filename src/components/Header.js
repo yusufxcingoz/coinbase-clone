@@ -3,8 +3,8 @@ import React from "react";
 export default function Header() {
   return (
     <div class="w-full border-b-2 flex flex-row justify-center">
-      <div class="flex flex-row justify-between w-11/12 h-16  text-2xl  items-center ">
-        <h1 class="cursor-pointer font-bold text-blue-600 ml-5 hover:text-blue-500 duration-300 ">
+      <div class="flex flex-row justify-between  h-16  text-2xl  items-center   ">
+        <h1 class="cursor-pointer font-bold text-blue-600 mx-32 md:text-3xl  hover:text-blue-500 duration-300 ">
           coinbase
         </h1>
         <div class="flex flex-row text-sm font-medium  items-center">
@@ -44,7 +44,7 @@ export default function Header() {
             </h1>
           </div>
         </div>
-        <div class="flex flex-row text-sm items-center">
+        <div class="flex flex-row text-sm items-center mx-32 mr-0">
           <a class="mx-3 font-semibold hover:text-gray-600 cursor-pointer duration-300">
             Sing in
           </a>

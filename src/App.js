@@ -2,6 +2,7 @@ import axios from "axios";
 
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
+import MarketStatus from "./components/MarketStatus";
 import PriceTable from "./components/PriceTable";
 import Tops from "./components/Tops";
 
@@ -23,6 +24,7 @@ function App() {
     <div class=" flex flex-col justify-center">
       <div></div>
       <Header />
+      <MarketStatus />
       <Tops />
       <PriceTable />
     </div>
