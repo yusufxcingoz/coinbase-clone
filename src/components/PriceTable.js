@@ -3,9 +3,9 @@ import PriceTableItem from "./PriceTableItem";
 
 export default function PriceTable({ coin }) {
   return (
-    <div class="text-sm mt-12">
+    <div class="text-sm mt-12 border-b-2 border-gray-200  mb-5">
       <div clasS="flex flex-row justify-between">
-        <div class="flex flex-row items-center ">
+        <div class="flex flex-row items-center mb-3 ">
           <div class="px-7 py-1 m-2 font-semibold text-blue-600 bg-blue-100 rounded-full">
             All assests
           </div>

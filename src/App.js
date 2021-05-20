@@ -1,6 +1,8 @@
 import axios from "axios";
 
 import React, { useState, useEffect } from "react";
+import Footer from "./components/Footer";
+import FooterHero from "./components/FooterHero";
 import Header from "./components/Header";
 import MarketStatus from "./components/MarketStatus";
 import PriceTable from "./components/PriceTable";
@@ -24,8 +26,9 @@ function App() {
     <div class=" flex flex-col justify-center">
       <div></div>
       <Header />
-
       <Tops coins={coins} />
+      <FooterHero />
+      <Footer />
     </div>
   );
 }

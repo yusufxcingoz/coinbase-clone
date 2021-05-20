@@ -2,7 +2,7 @@ import React from "react";
 
 function MarketStatus() {
   return (
-    <div class="flex flex-row items-center justify-between mt-12 ">
+    <div class="flex flex-row items-center justify-between mt-10 ">
       <div class="align-middle w-64">
         <h1 class=" flex flex-col ">
           <span class="text-sm text-gray-400">In past 24 hours</span>
