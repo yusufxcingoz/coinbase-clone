@@ -24,9 +24,8 @@ function App() {
     <div class=" flex flex-col justify-center">
       <div></div>
       <Header />
-      <MarketStatus />
-      <Tops />
-      <PriceTable />
+
+      <Tops coins={coins} />
     </div>
   );
 }
