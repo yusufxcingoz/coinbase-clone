@@ -15,22 +15,29 @@ function Tops({ coins }) {
             <div>
               <div class="flex flex-row items-center justify-between ">
                 <div class="flex flex-row m-5">
-                  <div class=" w-10 h-10 rounded-full mr-5">
-                    <img src={slicedCoins[0].image} />
+                  <div class=" w-10 h-10 rounded-full  mr-5">
+                    <img src={slicedCoins.length > 0 && slicedCoins[0].image} />
                   </div>
                   <div class="flex flex-col">
-                    <h1>{slicedCoins[0].symbol.toUpperCase()}</h1>
+                    <h1>
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[0].symbol.toUpperCase()}
+                    </h1>
                     <h1 class="text-green-400">
                       {" "}
-                      {slicedCoins[0].price_change_percentage_24h
-                        .toString()
-                        .substring(0, 5)}
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[0].price_change_percentage_24h
+                          .toString()
+                          .substring(0, 5)}
                       %
                     </h1>
                   </div>
                 </div>
                 <div class="mx-5">
-                  <h1> USD {slicedCoins[0].current_price}</h1>
+                  <h1>
+                    {" "}
+                    USD {slicedCoins.length > 0 && slicedCoins[0].current_price}
+                  </h1>
                 </div>
               </div>
               <p></p>
@@ -42,22 +49,29 @@ function Tops({ coins }) {
             <div>
               <div class="flex flex-row items-center justify-between ">
                 <div class="flex flex-row m-5">
-                  <div class=" w-10 h-10 rounded-full mr-5">
-                    <img src={slicedCoins[1].image} />
+                  <div class=" w-10 h-10 rounded-full  mr-5">
+                    <img src={slicedCoins.length > 0 && slicedCoins[1].image} />
                   </div>
                   <div class="flex flex-col">
-                    <h1>{slicedCoins[1].symbol.toUpperCase()}</h1>
+                    <h1>
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[1].symbol.toUpperCase()}
+                    </h1>
                     <h1 class="text-green-400">
                       {" "}
-                      {slicedCoins[1].price_change_percentage_24h
-                        .toString()
-                        .substring(0, 5)}
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[1].price_change_percentage_24h
+                          .toString()
+                          .substring(0, 5)}
                       %
                     </h1>
                   </div>
                 </div>
                 <div class="mx-5">
-                  <h1> USD {slicedCoins[1].current_price}</h1>
+                  <h1>
+                    {" "}
+                    USD {slicedCoins.length > 0 && slicedCoins[1].current_price}
+                  </h1>
                 </div>
               </div>
               <p></p>
@@ -79,21 +93,28 @@ function Tops({ coins }) {
             <div>
               <div class="flex flex-row items-center justify-between ">
                 <div class="flex flex-row m-5">
-                  <div class=" w-10 h-10 rounded-full mr-5">
-                    <img src={slicedCoins[2].image} />
+                  <div class=" w-10 h-10 rounded-full  mr-5">
+                    <img src={slicedCoins.length > 0 && slicedCoins[2].image} />
                   </div>
                   <div class="flex flex-col">
-                    <h1>{slicedCoins[2].symbol.toUpperCase()}</h1>
+                    <h1>
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[2].symbol.toUpperCase()}
+                    </h1>
                     <h1 class="text-green-400">
-                      {slicedCoins[2].price_change_percentage_24h
-                        .toString()
-                        .substring(0, 5)}
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[2].price_change_percentage_24h
+                          .toString()
+                          .substring(0, 5)}
                       %
                     </h1>
                   </div>
                 </div>
                 <div class="mx-5">
-                  <h1> USD {slicedCoins[2].current_price}</h1>
+                  <h1>
+                    {" "}
+                    USD {slicedCoins.length > 0 && slicedCoins[2].current_price}
+                  </h1>
                 </div>
               </div>
               <p></p>
@@ -106,20 +127,27 @@ function Tops({ coins }) {
               <div class="flex flex-row items-center justify-between ">
                 <div class="flex flex-row m-5">
                   <div class=" w-10 h-10 rounded-full mr-5">
-                    <img src={slicedCoins[3].image} />
+                    <img src={slicedCoins.length > 0 && slicedCoins[3].image} />
                   </div>
                   <div class="flex flex-col">
-                    <h1>{slicedCoins[1].symbol.toUpperCase()}</h1>
+                    <h1>
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[3].symbol.toUpperCase()}
+                    </h1>
                     <h1 class="text-green-400">
-                      {slicedCoins[3].price_change_percentage_24h
-                        .toString()
-                        .substring(0, 5)}
+                      {slicedCoins.length > 0 &&
+                        slicedCoins[3].price_change_percentage_24h
+                          .toString()
+                          .substring(0, 5)}
                       %
                     </h1>
                   </div>
                 </div>
                 <div class="mx-5">
-                  <h1> USD {slicedCoins[3].current_price}</h1>
+                  <h1>
+                    {" "}
+                    USD {slicedCoins.length > 0 && slicedCoins[3].current_price}
+                  </h1>
                 </div>
               </div>
               <p></p>
