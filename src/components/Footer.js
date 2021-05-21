@@ -3,9 +3,9 @@ import Select from "react-select";
 
 function Footer() {
   return (
-    <div class="flex justify-center items-center m-auto w-3/4 p-16">
+    <div class="flex justify-center items-center m-auto w-3/4 my-20">
       <div class="flex ">
-        <div class="flex-1 my-12 ml-12 pl-5 ">
+        <div class="flex-1 my-12 mr-12 pl-5 ">
           <h1 class="cursor-pointer font-semibold mb-5 text-blue-600  md:text-3xl  hover:text-blue-500 duration-300">
             coinbase
           </h1>
