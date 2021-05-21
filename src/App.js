@@ -26,7 +26,7 @@ function App() {
     <div class=" flex flex-col justify-center">
       <div></div>
       <Header />
-
+      <Tops coins={coins} />
       <FooterHero />
       <Footer />
     </div>
