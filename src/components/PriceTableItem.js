@@ -6,7 +6,7 @@ function PriceTableItem({ coins }) {
       {coins.map((e) => {
         if (e.market_cap_change_24h > 0) {
           return (
-            <div class="flex flex-row items-center border-l-2 font-semibold border-r-2 justify-between hover:bg-blue-100 cursor-pointer duration-200">
+            <div class="flex flex-row items-center border-l-2 font-semibold border-r-2 justify-between hover:bg-gray-50 cursor-pointer duration-200">
               <div class="px-5 py-3 flex flex-row items-center ">
                 <div class="w-10 h-10  rounded-full">
                   <img src={e.image} />
@@ -47,7 +47,7 @@ function PriceTableItem({ coins }) {
           );
         } else {
           return (
-            <div class="flex flex-row items-center border-l-2 border-r-2 font-semibold justify-between hover:bg-blue-100 cursor-pointer duration-200">
+            <div class="flex flex-row items-center border-l-2 border-r-2 font-semibold justify-between hover:bg-gray-50 cursor-pointer duration-200">
               <div class="px-5 py-3 flex flex-row items-center ">
                 <div class="w-10 h-10  rounded-full">
                   <img src={e.image} />

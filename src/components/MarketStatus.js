@@ -1,4 +1,5 @@
 import React from "react";
+import SearchIcon from "@material-ui/icons/Search";
 
 function MarketStatus() {
   return (
@@ -13,13 +14,16 @@ function MarketStatus() {
         </h1>
       </div>
 
-      <div class="table-row-group">
-        <input
-          class="border-2 w-96 h-12 p-2 rounded-lg"
-          type="text"
-          name="name"
-          placeholder=" Search all assests"
-        />
+      <div class="table-row-group border-2 rounded-md w-96   ">
+        <div class="flex flex-row items-center">
+          <SearchIcon class="w-6 fill-current text-gray-400 mx-1" />
+          <input
+            class=" h-10 p-2 outline-none rounded-lg"
+            type="text"
+            name="name"
+            placeholder=" Search all assests"
+          />
+        </div>
       </div>
     </div>
   );

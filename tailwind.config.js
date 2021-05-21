@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        green: {
+          coinbase: "#B5C6C6",
+        },
         blue: {
           hero: "#E9F6FF",
         },
