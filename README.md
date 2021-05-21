@@ -1,6 +1,6 @@
 
 ## coinbase clone with tailwind.css and coingecko api.
 
-###demo
+### demo:
 https://coinbase-clone2.herokuapp.com/
 
