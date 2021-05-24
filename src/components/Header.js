@@ -46,7 +46,7 @@ export default function Header() {
         </div>
         <div class="flex flex-row text-sm items-center mx-32 mr-0">
           <a class="mx-3 font-semibold hover:text-gray-600 cursor-pointer duration-300">
-            Sing in
+            Sign in
           </a>
           <div>
             <button class="mx-3 bg-blue-600 h-10 w-24 rounded-lg text-white font-semibold hover:bg-blue-500 duration-300">
