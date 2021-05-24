@@ -29,12 +29,12 @@ export default function Header() {
           <div>
             {" "}
             <h1 class="hover:text-gray-600 mx-4 cursor-pointer h-16 flex  flex-col justify-center duration-300">
-              Businnes
+              Business
             </h1>
           </div>
           <div>
             <h1 class="hover:text-gray-600 mx-4 cursor-pointer h-16 flex  flex-col justify-center duration-300">
-              Developles
+              Developers
             </h1>
           </div>
           <div>
